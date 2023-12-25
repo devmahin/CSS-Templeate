@@ -1,0 +1,62 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+  margin: auto;
+  padding: 20px 0px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+nav div h2{
+  border-top: 1px dotted red;
+  border-bottom: 1px dotted red;
+
+  text-transform: uppercase;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+nav div ul{
+  display: flex;
+  justify-content: space-between;
+}
+nav div ul li{
+  padding: 0px 30px;
+  list-style: none;
+}
+.containter{
+  background-image: url("download.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 80vh;
+  background-size: cover;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.middel_box h2{
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 50px;
+  color: wheat;
+  text-shadow: 2px 2px #ff0000;
+
+}
+
+
+.middel_box button{
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+}
